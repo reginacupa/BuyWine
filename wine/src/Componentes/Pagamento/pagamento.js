@@ -4,17 +4,21 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import Button from '../Button/button';
 
 
 export default function ControlledRadioButtonsGroup() {
-  const [value, setValue] = React.useState('pay');
+  const [value, setValue] = React.useState('pay')
 
   const handleChange = (event) => {
-    setValue(event.target.value);
+    setValue(event.target.value)
 
   };
 
   return (
+
+    <>
+
     <FormControl>
       <FormLabel id="demo-controlled-radio-buttons-group">Formas de pagamento</FormLabel>
       <RadioGroup
@@ -30,6 +34,10 @@ export default function ControlledRadioButtonsGroup() {
 
       </RadioGroup>
     </FormControl>
+
+    <Button/>
+
+    </>
     
   );
 }

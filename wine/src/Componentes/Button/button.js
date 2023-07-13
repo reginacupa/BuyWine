@@ -12,11 +12,12 @@ function Example() {
         aria-controls="example-collapse-text"
         aria-expanded={open}
       >
-        Adicionar
+        Enviar
       </Button>
       <Collapse in={open}>
         <div id="example-collapse-text">
-          Produto adicionado ao carrinho!
+          Obrigado por sua compra! 
+          Tim Tim! ;)
         </div>
       </Collapse>
     </>

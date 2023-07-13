@@ -6,7 +6,6 @@ import Rose from './Pages/Rose/rose';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import '../src/App.css';
 import Product from './Pages/Product';
-//import ProductDetails from '../src/Pages/ProductDetails';
 import QuantityBuy from './Componentes/QuantityBuy';
 
 function App() {
