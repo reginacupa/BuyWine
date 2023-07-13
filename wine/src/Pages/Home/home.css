@@ -1,0 +1,19 @@
+#sinopse {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color:white;
+    font-size: 30px;
+    font-family: PlayFair Display, sans-serif;
+    width: 70%;
+}
+
+
+
+

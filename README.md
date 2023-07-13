@@ -1,2 +1,0 @@
-# BuyWine
- Sprint II

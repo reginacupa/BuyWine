@@ -1,0 +1,53 @@
+@import url('https://fonts.google.com/specimen/Playfair+Display');
+
+
+.footer {
+    height: 50px;
+    margin: 50px  50px 0px 0px;
+    display: flex;
+    color: black;
+    font-size: 10px;
+    font-family:'Playfair Display', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.main-footer {
+    background: black;
+    padding: 16px 0;
+}
+  
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.footer-item + .footer-item {
+    margin-left: 16px;
+}
+  
+.footer-item img {
+    width: 32px;
+    height: 32px;
+}
+
+.span {
+    color:black;
+    font-family:'Playfair Display', serif;
+}
+  
+
+
+  
