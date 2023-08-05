@@ -6,6 +6,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+import { blue } from '@mui/material/colors';
 
 
 
@@ -13,7 +14,8 @@ export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box sx={{ width: 300 }}>
+    <>
+    <Box sx={{ width: 600 }}>
       <BottomNavigation
         showLabels
         value={value}
@@ -28,9 +30,9 @@ export default function SimpleBottomNavigation() {
       </BottomNavigation>
     </Box>
 
-    
+    <span>Desenvolvido por Regina Cupa</span>
 
-
+    </>
     
   );
 }

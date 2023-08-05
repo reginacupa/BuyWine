@@ -1,12 +1,12 @@
 import React from "react";
-import "../Rose/rose.css";
+import "../Pagamentos/pagamentos.css";
 import Header from "../../Componentes/Header/header";
-import Pagamento from '../../Componentes/Pagamento/pagamento';
+import Formulario from '../../Componentes/Formulario/formulario';
 import Footer from "../../Componentes/Footer/footer";
 
 
 
-function Rose(){
+function Pagamentos(){
     return(
         <>
         <section className= "Container">
@@ -16,14 +16,14 @@ function Rose(){
                 </div>
 
             <div id= "ControlledRadioButtonsGroup"></div>
-                <div className="pagamento">
+                <div className="button">
                 </div>
             
       
         </section>
 
         <Header/>
-        <Pagamento/>
+        <Formulario/>
         <Footer/>
         </>
     )
@@ -31,4 +31,4 @@ function Rose(){
 
 }
 
-export default Rose;
+export default Pagamentos;

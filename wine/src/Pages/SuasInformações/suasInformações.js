@@ -1,12 +1,12 @@
 import React from "react";
-import "../Branco/branco.css";
+import "../SuasInformações/suasInformações.css";
 import Header from "../../Componentes/Header/header";
 import Footer from "../../Componentes/Footer/footer";
 import Login from "../../Componentes/login/login";
 import Container from '@mui/material/Container';
 
 
-function Branco (){
+function SuasInformações (){
     return (
         <>  
             <section className= "Container">
@@ -32,7 +32,7 @@ function Branco (){
 
 }
 
-export default Branco;
+export default SuasInformações;
 
 
 

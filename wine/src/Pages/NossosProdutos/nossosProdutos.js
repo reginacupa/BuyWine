@@ -1,12 +1,12 @@
 import React from "react";
-import "../Tinto/tinto.css";
+import "../NossosProdutos/nossosProdutos.css";
 import Header from "../../Componentes/Header/header";
 import Cards from "../../Componentes/Cards/cards";
 import Footer from "../../Componentes/Footer/footer";
 import Container from '@mui/material/Container';
 
 
-function Tinto(){
+function NossosProdutos(){
     
 
     return(
@@ -35,5 +35,5 @@ function Tinto(){
 
 }
 
-export default Tinto;
+export default NossosProdutos;
 

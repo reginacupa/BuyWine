@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "../Home/home.css";
 import "../../Componentes/Header/header";
 import Header from "../../Componentes/Header/header";
 import Container from '@mui/material/Container';

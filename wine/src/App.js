@@ -1,8 +1,8 @@
 import React from 'react';
 import Home from './Pages/Home/home';
-import Tinto from './Pages/Tinto/tinto';
-import Branco from './Pages/Branco/branco';
-import Rose from './Pages/Rose/rose';
+import NossosProdutos from './Pages/NossosProdutos/nossosProdutos';
+import SuasInformações from './Pages/SuasInformações/suasInformações';
+import Pagamentos from './Pages/Pagamentos/pagamentos';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import '../src/App.css';
 import Product from './Pages/Product';
@@ -15,11 +15,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path= '/' element={<Home/>}/>
-          <Route path= '/tinto' element={<Tinto/>}/>
+          <Route path= '/nossosProdutos' element={<NossosProdutos/>}/>
           <Route path='/product' element={< Product />}></Route>
           <Route path= '/products/:id' element= {<QuantityBuy />}></Route>
-          <Route path='/branco' element={<Branco/>}/>
-          <Route path='/rose' element={<Rose/>}/>
+          <Route path='/suasInformações' element={<SuasInformações/>}/>
+          <Route path='/pagamentos' element={<Pagamentos/>}/>
           
         </Routes>  
       </BrowserRouter>

@@ -18,17 +18,18 @@ function Header (){
                                 <li>Home</li>
                         </Link>
 
-                        <Link to= '/tinto'>
-                            <div className="tinto"></div>
+                        <Link to= '/nossosProdutos'>
+                            <div className='nossosProdutos'></div>
                             <li>Nossos produtos</li>
                         </Link>
 
-                        <Link to= '/branco'>
-                            <div className=""></div>
+                        <Link to= '/suasInformações'>
+                            <div className='suasInformações'></div>
                             <li>Suas informações</li>
                         </Link>
 
-                        <Link to= '/rose'>
+                        <Link to= '/pagamentos'>
+                            <div className='pagamentos'></div>
                             <li>Pagamento</li>
                         </Link>
 

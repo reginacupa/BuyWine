@@ -44,7 +44,7 @@ function GridComplexExample() {
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridZip">
-          <Form.Label>Zip</Form.Label>
+          <Form.Label>CEP</Form.Label>
           <Form.Control />
         </Form.Group>
       </Row>

@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/specimen/Playfair+Display');
+
 
 header {
     position: absolute;
@@ -6,9 +6,27 @@ header {
     height: 47px;
     left: 0px;
     top: 10px;
-    background: white;
+    background: rgb(178, 176, 174);
     display: flex;
 }
+
+.AddShoppingCartOutlinedIcon {
+    color: white;
+}
+
+.LocalShippingOutlinedIcon{
+    color:white ;
+}
+
+.FavoriteBorderOutlinedIcon{
+    color: white;
+}
+
+.AccountCircleOutlinedIcon{
+    color: white;
+}
+
+
 
 nav {
     width: 60%;
@@ -22,15 +40,15 @@ ul {
 
 li {
     list-style: none;
-    color: rgb(82, 80, 80);
+    color: white;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     transition: .5s;
     font-family:Arial, sans-serif ;
 }
 
 li:hover {
-    color: rgb(165, 65, 117);
+    color: black;
 }
 
 #Logo {
