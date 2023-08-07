@@ -1,0 +1,9 @@
+#SimpleBottomNavigation {
+    position: absolute;
+    width: 100%;
+    height: 47px;
+    left: 0px;
+    top: 10px;
+    background: black;
+    display: flex;
+}

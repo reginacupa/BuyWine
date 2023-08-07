@@ -1,4 +1,5 @@
 import * as React from 'react';
+import '../Footer/footer.css';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
@@ -6,7 +7,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
-import { blue } from '@mui/material/colors';
 
 
 
@@ -15,7 +15,7 @@ export default function SimpleBottomNavigation() {
 
   return (
     <>
-    <Box sx={{ width: 600 }}>
+    <Box sx={{ width: 300 }}>
       <BottomNavigation
         showLabels
         value={value}
