@@ -9,18 +9,26 @@ header {
 }
 
 .AddShoppingCartOutlinedIcon {
+    padding-left: 5px;
+    padding-right: 10px;
     color: white;
 }
 
 .LocalShippingOutlinedIcon{
+    padding-left: 5px;
+    padding-right: 10px;
     color:white ;
 }
 
 .FavoriteBorderOutlinedIcon{
+    padding-left: 5px;
+    padding-right: 10px;
     color: white;
 }
 
 .AccountCircleOutlinedIcon{
+    padding-left: 5px;
+    padding-right: 10px;
     color: white;
 }
 

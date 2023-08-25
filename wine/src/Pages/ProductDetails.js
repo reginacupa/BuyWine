@@ -15,7 +15,7 @@ export default function ProductDetails() {
       <div>
         <button className="back" onClick={() => navigate('/products')}>Voltar</button>
         <div>
-          <img className="detailed-image" src={state.p.image} alt="" />
+          <img className="detailed-image" src={state.vinho} alt="" />
         </div>
         <div>
           <h2>{state.p.title} - {id}</h2>

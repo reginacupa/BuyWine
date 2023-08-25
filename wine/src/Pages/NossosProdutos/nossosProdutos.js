@@ -1,7 +1,6 @@
 import React from "react";
 import "../NossosProdutos/nossosProdutos.css";
 import Header from "../../Componentes/Header/header";
-import Cards from "../../Componentes/Cards/cards";
 import Footer from "../../Componentes/Footer/footer";
 import Container from '@mui/material/Container';
 
@@ -18,14 +17,13 @@ function NossosProdutos(){
                 </div>
 
 
-            <div id= "Cards"></div>
+            <div id= "cards"></div>
                 <div className="cards-product"></div> 
 
         </section>
 
         
         <Header/>
-        <Cards/>
         <Container/>
         <Footer/>
 

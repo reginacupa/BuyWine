@@ -7,6 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+//import { backdropClasses } from '@mui/material';
 
 
 
@@ -15,23 +16,28 @@ export default function SimpleBottomNavigation() {
 
   return (
     <>
-    <Box sx={{ width: 300 }}>
-      <BottomNavigation
-        showLabels
-        value={value}
-        onChange={(event, newValue) => {
-          setValue(newValue);
-        }}
-      >
-        <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
-        <BottomNavigationAction label="Instagram" icon={<InstagramIcon />} />
-        <BottomNavigationAction label="Twitter" icon={<TwitterIcon />} />
-        <BottomNavigationAction label="Email" icon={<EmailOutlinedIcon/>} />
-      </BottomNavigation>
-    </Box>
+      <Box sx={{ width: 300 }}> 
+        <BottomNavigation
+          sx={{backgroundColor: 'peachpuff'}}
+          showLabels
+          value={value}
+          onChange={(event, newValue) => {
+            setValue(newValue);
+          }}
+        >
+          <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
+          <BottomNavigationAction label="Instagram" icon={<InstagramIcon />} />
+          <BottomNavigationAction label="Twitter" icon={<TwitterIcon />} />
+          <BottomNavigationAction label="Email" icon={<EmailOutlinedIcon/>} />
+        </BottomNavigation>
+      </Box>
 
-    <span>Desenvolvido por Regina Cupa</span>
 
+    <div className="text">
+      <span>Desenvolvido por Regina Cupa</span>              
+    </div>
+
+   
     </>
     
   );

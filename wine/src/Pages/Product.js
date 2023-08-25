@@ -5,7 +5,7 @@ import Produtos from "../Produtos.json"
 export const Context = createContext()
 
 export default function Products() {
-  const [productList, setProductList] = useState(Produtos.vinhos)
+  const [productList, setProductList] = useState([Produtos.vinhos])
   const [ setCount ]=useState(0)
   console.log(Produtos.vinhos)
 
@@ -18,11 +18,11 @@ export default function Products() {
     <div className="content-product">
       
       <section className="main-products"> 
-      {/* <Context.Provider value={setCount}>  
+     <Context.Provider value={setCount}>  
         {productList.map((p, index) => (
           <Item key={index} product={p} setCount={setCount} />
         )) ??"Lista carregando"}
-        </Context.Provider>        */}
+        </Context.Provider>       
       </section>
     </div>
   )
