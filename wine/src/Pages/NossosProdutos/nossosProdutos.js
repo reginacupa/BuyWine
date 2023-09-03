@@ -3,6 +3,8 @@ import "../NossosProdutos/nossosProdutos.css";
 import Header from "../../Componentes/Header/header";
 import Footer from "../../Componentes/Footer/footer";
 import Container from '@mui/material/Container';
+import ProductList from "../../Componentes/ProductList/productList";
+
 
 
 function NossosProdutos(){
@@ -17,14 +19,15 @@ function NossosProdutos(){
                 </div>
 
 
-            <div id= "cards"></div>
-                <div className="cards-product"></div> 
+            <div id= "produtos"></div>
+                <div className="productList"></div>     
 
         </section>
 
         
         <Header/>
         <Container/>
+        <ProductList/>
         <Footer/>
 
 

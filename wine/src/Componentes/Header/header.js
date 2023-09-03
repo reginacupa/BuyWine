@@ -57,7 +57,7 @@ function Header (){
 
                 <AccountCircleOutlinedIcon label="User" icon={<AccountCircleOutlinedIcon />} />
                 <div className="AccountCircleOutlinedIcon">
-                    <span>Entrar</span>
+                         <span>Entrar</span>
                 </div>
 
             </header>

@@ -4,7 +4,6 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
-import Button from '../Button/button';
 
 
 export default function ControlledRadioButtonsGroup() {
@@ -35,7 +34,6 @@ export default function ControlledRadioButtonsGroup() {
       </RadioGroup>
     </FormControl>
 
-    <Button/>
 
     </>
     
