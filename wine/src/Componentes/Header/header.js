@@ -45,7 +45,7 @@ function Header (){
 
                 <LocalShippingOutlinedIcon label="Favoritos" icon={<LocalShippingOutlinedIcon />} />
                 <div className="LocalShippingOutlinedIcon">
-                    <span>Rastreie seu pedido</span>
+                    <span>Frete Grátis</span>
                 </div>
 
 
