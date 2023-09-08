@@ -1,13 +1,12 @@
 {
-    "vinhos": [
+    "vinho": [
         {
             "id": 1,
-            "title": "Montes Alpha - Cabernet Sauavignon",
-            "description": "Verdadeiro clássico da América do Sul, o Montes Alpha foi o primeiro grande tinto chileno, inspirado nos melhores vinhos de Bordeaux.  Um vinho excelente, de imbatível relação qualidade/preço",
-            "price": "259,23",
-            "rating": 8.8,
-            "brand": "Montes Alpha",
-            "category": "Cabernet Sauavignon",
+            "nome": "Montes Alpha",
+            "descricao": "Verdadeiro clássico da América do Sul, o Montes Alpha foi o primeiro grande tinto chileno, inspirado nos melhores vinhos de Bordeaux.  Um vinho excelente, de imbatível relação qualidade/preço",
+            "preco": "259,23",
+            "avaliacao": 8.8,
+            "categoria": "Cabernet Sauavignon",
             "image": [
                 "https://cdn.mistral.com.br/products/35015/img_m_35015.png" 
             ]

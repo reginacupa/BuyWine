@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './productList.css';
 
+
 const ProductList = () => {
   const [products, setProducts] = useState([]);
 
@@ -10,7 +11,7 @@ const ProductList = () => {
 
   const getList = async () => {
     try {
-      const response = await fetch('https://fakestoreapi.com/products');
+      const response = await fetch ('http://127.0.0.1:5000/Produto', {method:'GET'});
       const data = await response.json();
       setProducts(data);
     } catch (error) {
