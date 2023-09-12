@@ -18,9 +18,11 @@ function NossosProdutos(){
                     <h3>Nossos produtos</h3>
                 </div>
 
-
-            <div id= "produtos"></div>
-                <div className="productList"></div>     
+            
+                <div className="producList"></div>
+                    <li>NossosProdutos</li>
+            
+                 
 
         </section>
 
