@@ -7,6 +7,7 @@ import ProductList from "../../Componentes/ProductList/productList";
 
 
 
+
 function NossosProdutos(){
     
 
@@ -16,11 +17,7 @@ function NossosProdutos(){
             <div id= "GridComplexExample"></div>
                 <div className="description">
                     <h3>Nossos produtos</h3>
-                </div>
-
-
-            <div id= "produtos"></div>
-                <div className="productList"></div>     
+                </div>     
 
         </section>
 

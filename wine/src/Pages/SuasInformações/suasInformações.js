@@ -6,6 +6,8 @@ import Login from "../../Componentes/login/login";
 import Container from '@mui/material/Container';
 
 
+
+
 function SuasInformações (){
     return (
         <>  
@@ -15,15 +17,17 @@ function SuasInformações (){
                         <h3>Suas informações</h3>
                     </div>
 
+                
+
             </section>
 
-
-    
+            
 
 
         <Header/>
         <Container/>
         <Login/>
+
         <Footer/>
       
         </>
