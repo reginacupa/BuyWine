@@ -6,36 +6,25 @@ import Container from '@mui/material/Container';
 import ProductList from "../../Componentes/ProductList/productList";
 import QuantityBuy from "../../Componentes/QuantityBuy/QuantityBuy";
 
+ 
+
+function NossosProdutos() {
 
 
-
-
-
-
-function NossosProdutos(){
-    
-
-    return(
-        <> 
-        <section className= "Container">
-            <div id= "GridComplexExample"></div>
+    return (
+        <>
+            <section className="Container">
+                <div id="GridComplexExample"></div>
                 <div className="description">
                     <h3>Nossos produtos</h3>
 
-                </div>     
+                <div className="ProducList"></div>
 
-            
-                <div className="Productlist"></div>
-
-                <div className= "QuantityBuy"></div>
-
+                <div className="QuantityBuy"></div>
                 
-            
-                 
-
-
-        </section>
-
+                </div>
+            </section>
+           
         
         <Header/>
         <Container/>
@@ -45,7 +34,7 @@ function NossosProdutos(){
 
 
         </>
-    )
+            )
 
 }
 

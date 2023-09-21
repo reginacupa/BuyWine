@@ -1,25 +1,28 @@
 import React, { useEffect, useState } from 'react';
-import './productList.css';
+import ProductList from "../ProductList/productList.css";
 
 
-const ProductList = () => {
+const ProductLista = () => {
   const [products, setProducts] = useState([]);
 
+
   useEffect(() => {
-    getList();
+
+    getList()
+    
   }, []);
 
   const getList = async () => {
     try {
-      const response = await fetch ('https://fakestoreapi.com/products');
+      const response = await fetch ('http://127.0.0.1:5000/produtos', { method:'GET'});
       const data = await response.json();
-      setProducts(data);
+      setProducts(data.produtos);
     } catch (error) {
       console.error('Error:', error);
     }
   };
 
-  const buyProduct = (productId) => {
+  const buyProduct = (produtoId) => {
     // Lógica para comprar o produto com o ID productId
     // Implemente essa lógica de acordo com suas necessidades
   };
@@ -27,28 +30,37 @@ const ProductList = () => {
   return (
     <div className="App">
       <div id="products-list">
-        {products.map((product) => (
-          <article key={product.id} className="product" id={product.id}>
-            <img src={product.image} alt="Não foi possível carregar a imagem do produto" />
 
-            <h3 className="price-product">
-              <span>R$ {product.price}</span>
-            </h3>
+      {products.map ((item, index) => (
+        <div className='item'>
+          <article key="id" className="product" id="id">
+            <div key="index">
+              <img src={item.imagem} alt="Não foi possível carregar a imagem do produto" />
+              <h3 className="price-product">
+                <span>R${item.preco} </span>
+              </h3>
 
-            <p className="name-product">{product.title}</p>
+              <p className="name-product">{item.nome}</p>
 
-            <button
-              className="buy-product"
-              type="button"
-              onClick={() => buyProduct(product.id)}
-            >
-              Comprar
-            </button>
+              
+              <p className= "product-brand">{item.categoria}</p>
+
+
+              <button
+                className="buy-product"
+                type="button"
+                onClick={() => buyProduct("id")}>Comprar
+              </button>
+            </div>
           </article>
-        ))}
+        </div>
+
+      )
+      )}  
       </div>
     </div>
   );
 };
 
-export default ProductList;
+export default ProductLista;
+

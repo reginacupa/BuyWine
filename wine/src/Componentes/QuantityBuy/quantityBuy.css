@@ -135,7 +135,7 @@
 .purchase-button {
     display: flex;
     margin: 24px auto 0;
-    background: #002266;
+    background: red;
     color: var(--white);
     border: 0;
     border-radius: 6px;

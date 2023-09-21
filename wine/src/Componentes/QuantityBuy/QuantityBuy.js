@@ -132,7 +132,7 @@ function Cart() {
       {/* Renderize sua lista de produtos aqui */}
       <div className="cart-total-container">
         <span>Total: {totalAmount}</span>
-        <button className="purchase-button">Comprar</button>
+        <button className="purchase-button">Finalizar Compra</button>
       </div>
     </div>
   );
