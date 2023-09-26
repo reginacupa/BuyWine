@@ -135,8 +135,11 @@ function Cart() {
         <button className="purchase-button">Finalizar Compra</button>
       </div>
     </div>
+
+      
   );
 }
 
+  
 
 export default Cart;

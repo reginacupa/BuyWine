@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Header/header.css';
-import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import AddShoppingCartOutlinedIcon from '@mui/icons-material/AddShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
+
 
 
 function Header (){
@@ -30,9 +30,8 @@ function Header (){
 
                         <Link to= '/pagamentos'>
                             <div className='pagamentos'></div>
-                            <li>Pagamento</li>
+                            <li>Login</li>
                         </Link>
-
                         
                     </ul>
                 </nav>
@@ -52,12 +51,6 @@ function Header (){
                 <FavoriteBorderOutlinedIcon label="Favoritos" icon={<FavoriteBorderOutlinedIcon />} />
                 <div className="FavoriteBorderOutlinedIcon">
                     <span>Favoritos</span>
-                </div>
-
-
-                <AccountCircleOutlinedIcon label="User" icon={<AccountCircleOutlinedIcon />} />
-                <div className="AccountCircleOutlinedIcon">
-                         <span>Entrar</span>
                 </div>
 
             </header>

@@ -15,6 +15,9 @@ function Home (){
                 <div id= "GridComplexExample"></div>
                     <div className="description">
                         <h3>Tim Tim Import</h3>
+
+                <div className="User"></div>
+
                     </div>
             </section>
 
