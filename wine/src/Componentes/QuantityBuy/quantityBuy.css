@@ -118,7 +118,7 @@
 .purchase-button {
     display: flex;
     margin: 24px auto 0;
-    background: blue;
+    background: rgb(3, 101, 205);
     color: var(--white);
     border: 0;
     border-radius: 6px;

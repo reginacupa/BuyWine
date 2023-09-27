@@ -1,9 +1,12 @@
 import React from "react";
 import "../Pagamentos/pagamentos.css";
 import Header from "../../Componentes/Header/header";
-import LoginHeader from '../../Componentes/LoginHeader/loginheader';
+import UserLogin from '../../Componentes/Userlogin/userlogin';
+import { Form } from '../../Componentes/Userform/userform';
 import Footer from "../../Componentes/Footer/footer";
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+
+
 function Pagamentos(){
     return(
         <>
@@ -30,7 +33,8 @@ function Pagamentos(){
         </section>
 
         <Header/>
-        <LoginHeader/>
+        <Form/>
+        <UserLogin/>
         <Footer/>
         </>
     )

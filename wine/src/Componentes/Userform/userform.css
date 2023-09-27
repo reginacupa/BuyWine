@@ -1,0 +1,33 @@
+
+.Form {
+    max-width: 400 px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Form label {
+    text-align: left;
+    display: block;
+}
+
+.Form input {
+    width: 60%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(178, 176, 174);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: block;
+}
+
+button {
+    background-color: rgb(17, 79, 146) ;
+    color: white;
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor:pointer;
+    width: 20%;
+}
+

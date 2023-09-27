@@ -1,6 +1,7 @@
 # specify the node base image with your desired version node:<version>
 FROM node:14
 
+
 #definir diretoria de trabalho
 WORKDIR /app
 
@@ -8,7 +9,7 @@ WORKDIR /app
 COPY package*.json ./
 
 #instalar dependencias do projeto
-RUN npm install
+RUN npm install 
 
 #copie todos so arquivos do diretório atual para o diretório de trabalho no container
 COPY . .
